@@ -13,7 +13,7 @@ function App() {
     <>
       <Navbars />
 
-      {/* <Routes>
+      <Routes>
 
         <Route path="/" element={<Home />} />
 
@@ -21,9 +21,7 @@ function App() {
 
         <Route path="/*" element={<NotFound />} />
 
-      </Routes> */}
-
-      <Home />
+      </Routes>
 
       <ContactUs />
 
