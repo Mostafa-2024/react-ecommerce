@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { Route, Routes } from "react-router-dom";
 import Home from "./component/home/Home";
 import EmptyCart from "./component/emptyCart/EmptyCart1";
 import Navbars from "./component/navbar/Navbars";
@@ -8,31 +8,21 @@ import NotFound from "./component/not_found/NotFound";
 
 function App() {
 
-  return (
-
-    <Router>
+  return(
+    
+    <>
 
       <Navbars />
 
-      <Routes>
-
-        <Route path="/" element={<Home />} />
-
-        <Route path="/cart" element={<EmptyCart />} />
-
-        <Route path="/*" element={<NotFound />} />
-
-        <Route path="*" element={<Navigate to="/" />} />
-
-      </Routes>
+      <Route path="/" element={<Home />} />
 
       <ContactUs />
 
       <Footer />
 
-    </Router>
-    
-  );
+    </>
+
+  )
 }
 
 export default App;
