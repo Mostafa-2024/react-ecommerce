@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Home from "./component/home/Home";
 import EmptyCart from "./component/emptyCart/EmptyCart1";
 import Navbars from "./component/navbar/Navbars";
@@ -22,7 +22,7 @@ function App() {
 
         <Route path="/*" element={<NotFound />} />
 
-        <Redirect from="*" to="/" />
+        <Route path="*" element={<Navigate to="/" />} />
 
       </Routes>
 
@@ -31,8 +31,8 @@ function App() {
       <Footer />
 
     </Router>
+    
   );
-  
 }
 
 export default App;
