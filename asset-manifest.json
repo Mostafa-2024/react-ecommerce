@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-ecommerce/static/css/main.17a4a8b1.css",
-    "main.js": "/react-ecommerce/static/js/main.eec81665.js",
+    "main.js": "/react-ecommerce/static/js/main.4034bf4c.js",
     "static/media/jbl660nc-1.png": "/react-ecommerce/static/media/jbl660nc-1.4aa5ade12591d3d45e65.png",
     "static/media/jbl760nc-1.png": "/react-ecommerce/static/media/jbl760nc-1.7b087e2bf8f93d85127e.png",
     "static/media/sonyXb910n-1.png": "/react-ecommerce/static/media/sonyXb910n-1.182b8aefc89ba31a3010.png",
@@ -17,10 +17,10 @@
     "static/media/jbl200bt-1.png": "/react-ecommerce/static/media/jbl200bt-1.f1b5034a8058081427ce.png",
     "index.html": "/react-ecommerce/index.html",
     "main.17a4a8b1.css.map": "/react-ecommerce/static/css/main.17a4a8b1.css.map",
-    "main.eec81665.js.map": "/react-ecommerce/static/js/main.eec81665.js.map"
+    "main.4034bf4c.js.map": "/react-ecommerce/static/js/main.4034bf4c.js.map"
   },
   "entrypoints": [
     "static/css/main.17a4a8b1.css",
-    "static/js/main.eec81665.js"
+    "static/js/main.4034bf4c.js"
   ]
 }
