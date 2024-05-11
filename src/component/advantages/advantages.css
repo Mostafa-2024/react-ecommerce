@@ -1,0 +1,38 @@
+.advantages {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  row-gap: 40px;
+  padding-bottom: 100px
+}
+.advantages .advantage {
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
+@media(max-width: 453px) {
+  
+  .advantages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+
+}
+.advantages .advantage svg {
+  font-size: 40px;
+  color: var(--alt-color);
+  margin-right: 15px
+}
+.advantages .advantage .text .title {
+  font-size: 18px;
+  color: var(--main-color);
+  font-weight: bold
+}
+.advantages .advantage .text .description {
+  font-size: 14px;
+  color: #757985;
+  margin-bottom: 0
+}

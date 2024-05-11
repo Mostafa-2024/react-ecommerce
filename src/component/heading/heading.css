@@ -1,0 +1,23 @@
+.heading {
+  padding: 150px 0 100px;
+  text-align: center;
+  font-size: 30PX;
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+@media(max-width: 767px) {
+
+  .heading{
+    padding: 100px 0 100px;
+  }
+
+}
+
+@media(max-width: 767px) {
+
+  .heading:first-of-type {
+    padding: 350px 0 100px !important;
+  }
+
+}

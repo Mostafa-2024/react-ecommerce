@@ -1,0 +1,100 @@
+.slide {
+  width: 100%
+}
+.slide .carousel-control-prev,
+.slide .carousel-control-next {
+  display: none
+}
+.slide .carousel-item .content {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+@media(max-width: 767px) {
+
+  .slide .carousel-item .content {
+    flex-direction: column;
+    padding-top: 250px;
+  }
+}
+.slide .carousel-item .content .text {
+  width: 50%;
+  color: var(--main-color);
+  font-weight: bold
+}
+.slide .carousel-item .content .text .title {
+  font-size: 20px;
+}
+.slide .carousel-item .content .text .description {
+  font-family: 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 45px;
+  margin: 5px 0 15px;
+}
+.slide .carousel-item .content .text .one {
+  font-size: 20px;
+  margin-right: 5px
+}
+.slide .carousel-item .content .text .two {
+  font-size: 18px;
+  color: #979797;
+  text-decoration: line-through
+}
+.slide .carousel-item .content .text button {
+  display: block;
+  margin-top: 20px;
+  background-color: var(--alt-color);
+  border: none;
+  padding: 3px 15px;
+  font-family: 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 3px;
+  border: 1px solid var(--alt-color)
+}
+.slide .carousel-item .content .text button:hover {
+  font-weight: bold;
+  color: var(--alt-color);
+  background-color: transparent;
+  border: 1px solid var(--alt-color)
+}
+
+.slide .carousel-item .content img {
+  width: 50% !important
+}
+@media(max-width: 767px) {
+
+  .slide .carousel-item .content .text {
+    padding-top: 50px;
+    order: 2;
+    width: 100% !important
+  }
+  .slide .carousel-item .content .text .description{
+    font-size: 35px
+  }
+  .slide .carousel-item .content .text .description br {
+    display: none
+  }
+  .slide .carousel-item .content .text button {
+    padding: 9px 22px
+  }
+  .slide .carousel-item .content img {
+    order: 1;
+    width: 100% !important
+  }
+}
+
+.slide .carousel-indicators {
+  gap: 10px;
+  bottom: -60px !important;
+}
+
+.slide .carousel-indicators button{
+  height: 13px ;
+  width: 13px ;
+  border-radius: 50% ;
+  background-color: var(--main-color) !important;
+  opacity: 1;
+}
+
+.slide .carousel-indicators button.active{
+  background-color: var(--alt-color) !important
+}

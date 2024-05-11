@@ -1,0 +1,40 @@
+.parent {
+  padding-top: 0 !important;
+  background-color: transparent;
+  text-align: center;
+}
+
+.swiper .card {
+  background-color: transparent;
+  border: none !important;
+  color: var(--main-color) !important;
+  opacity: .2;
+  transition: .3s
+}
+
+.swiper .card .title {
+  font-size: 15px;
+  margin-bottom: 40px;
+  margin-top: 25px
+}
+
+.swiper .card img {
+  max-height: 230px;
+  cursor: pointer;
+}
+
+.swiper .card .one {
+  font-size: 20px;
+  display: inline !important;
+  font-weight: bold;
+  margin: 40px 0
+}
+
+.swiper .card .two {
+  margin-left: 10px;
+  font-size: 15px;
+  color: #979797;
+  text-decoration: line-through;
+  display: inline !important;
+  font-weight: bold
+}
