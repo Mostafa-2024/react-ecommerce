@@ -15,11 +15,11 @@ function App() {
 
       <Routes>
 
-        <Route path="/" element={<Home />} />
+        <Route path="" element={<Home />} />
 
-        <Route path="/cart" element={<EmptyCart />} />
+        <Route path="cart" element={<EmptyCart />} />
 
-        <Route path="/*" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
 
       </Routes>
 
