@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-ecommerce/static/css/main.17a4a8b1.css",
+    "main.js": "/react-ecommerce/static/js/main.f367c0b4.js",
+    "static/media/jbl660nc-1.png": "/react-ecommerce/static/media/jbl660nc-1.4aa5ade12591d3d45e65.png",
+    "static/media/jbl760nc-1.png": "/react-ecommerce/static/media/jbl760nc-1.7b087e2bf8f93d85127e.png",
+    "static/media/sonyXb910n-1.png": "/react-ecommerce/static/media/sonyXb910n-1.182b8aefc89ba31a3010.png",
+    "static/media/boat518-1.png": "/react-ecommerce/static/media/boat518-1.f6b2750aae3d3b1826f6.png",
+    "static/media/boat255r-1.png": "/react-ecommerce/static/media/boat255r-1.54a06d751a07b439a6d3.png",
+    "static/media/boat131-3.png": "/react-ecommerce/static/media/boat131-3.619b08407591481c9278.png",
+    "static/media/boat131-1.png": "/react-ecommerce/static/media/boat131-1.35e62a6e4e9fdd51dc41.png",
+    "static/media/jbl100-1.png": "/react-ecommerce/static/media/jbl100-1.4dfd556bec02fb97ad28.png",
+    "static/media/sonyXb400-1.png": "/react-ecommerce/static/media/sonyXb400-1.1dae96f589923e3d8a4d.png",
+    "static/media/jbl-endu-1.png": "/react-ecommerce/static/media/jbl-endu-1.036c533ea919928224f6.png",
+    "static/media/jbl-endu-3.png": "/react-ecommerce/static/media/jbl-endu-3.0b11d21b92684fcdb527.png",
+    "static/media/jbl200bt-4.png": "/react-ecommerce/static/media/jbl200bt-4.32747239ba3b988bb53e.png",
+    "static/media/jbl200bt-1.png": "/react-ecommerce/static/media/jbl200bt-1.f1b5034a8058081427ce.png",
+    "index.html": "/react-ecommerce/index.html",
+    "main.17a4a8b1.css.map": "/react-ecommerce/static/css/main.17a4a8b1.css.map",
+    "main.f367c0b4.js.map": "/react-ecommerce/static/js/main.f367c0b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17a4a8b1.css",
+    "static/js/main.f367c0b4.js"
+  ]
+}
