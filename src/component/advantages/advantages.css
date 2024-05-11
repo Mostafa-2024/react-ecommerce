@@ -1,12 +1,11 @@
 .advantages {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
-  row-gap: 40px;
-  padding-bottom: 100px
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  row-gap: 50px;
 }
 .advantages .advantage {
-  width: 250px;
   display: flex;
   align-items: center;
 }
